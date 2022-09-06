@@ -1,0 +1,6 @@
+In this project I had to write a python script that reads an excel file and a dta file which have two databases: SDC and Execucomp respectively. SDC has data on alliances between firms and Execucomp has data on executives who run public companies for year 2000-2001. My client wanted to know how many firms that are alliance particiapants in SDC are also listed in Execucomp. They have company CUSIP as a common identifier.
+
+1. Create additional columns in the SDC file (as many as there is a maximum number of partners in all alliances for these 2 years) and place each partner's CUSIP in a separate column. The row should remain the same , i.e. if we  have an alliance in row 2 that includes Abbott Labs and NeuroSearch, then all new columns should be added to this row.
+2. Add another column in that same spreadsheet (correspondig to the same row) that will count the total number of partners that this specific alliance has. 
+3. Also create a separate set of columns that will only list CUSIPS of firms in SDC US alliance dataset that are also found in the Execucomp dataset. Variable "cusipn" has CUSIP identifiers in Execucomp dataset that are in the same format as CUSIP in SDC dataset.
+4. Create a last column with a count of how many alliance partners in the SDC US alliance dataset are also in the Execucomp dataset.
