@@ -1,0 +1,1 @@
+This is a project that I had done which required EDA and ML using python. I was provided with some data to study the relationship between variables like age, gender, height, weight, etc and the symptoms of COVID19 like fever, tiredness, etc. The goal was to perform data analysis, apply ML algorithms and document the findings and results along with graphs and charts.
